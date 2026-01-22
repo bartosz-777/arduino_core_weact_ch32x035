@@ -16,7 +16,7 @@
           "category": "Contributed",
           "url": "https://codeload.github.com/bartosz-777/arduino_core_weact_ch32x035/zip/main",
           "archiveFileName": "arduino_core_weact_ch32x035-main.zip",
-          "checksum": "SHA-256:d7dbd4120e78f0e9c3c4384b36669affe803f6172fb4ed0e43d009325e40339e"
+          "checksum": "SHA-256:d7dbd4120e78f0e9c3c4384b36669affe803f6172fb4ed0e43d009325e40339e",
           "size": "1391068",
           "boards": [
             {"name": "CH32X035 EVT Board"},		  
