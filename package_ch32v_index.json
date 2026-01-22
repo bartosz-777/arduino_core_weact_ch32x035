@@ -1,9 +1,9 @@
 {
   "packages": [
     {
-      "name": "WCH",
+      "name": "WCH-weact",
       "websiteURL": "https://www.wch.cn/",
-      "maintainer": "WCH",
+      "maintainer": "bartosz-777",
       "email": "tech@wch.cn",
       "help": {
         "online": "https://www.wch.cn/"
