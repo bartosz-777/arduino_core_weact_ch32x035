@@ -1,0 +1,43 @@
+{
+  "packages": [
+    {
+      "name": "WCH",
+      "websiteURL": "https://www.wch.cn/",
+      "maintainer": "WCH",
+      "email": "tech@wch.cn",
+      "help": {
+        "online": "https://www.wch.cn/"
+      },
+      "platforms": [
+       	{
+          "name": "CH32 MCU EVT Boards",
+          "architecture": "ch32v",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://codeload.github.com/bartosz-777/arduino_core_weact_ch32x035/zip/main",
+          "archiveFileName": "arduino_core_weact_ch32x035-main.zip",
+          "boards": [
+            {"name": "CH32X035 EVT Board"},		  
+            {"name": "CH32V30x EVT Board"},
+            {"name": "CH32V20x EVT Board"},			
+            {"name": "CH32V10x EVT Board"},			
+            {"name": "CH32V00x EVT Board"}  
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "WCH",
+              "name": "riscv-none-embed-gcc",
+              "version": "8.2.0"
+            },
+            {
+              "packager": "WCH",
+              "name": "openocd",
+              "version": "1.0.0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
