@@ -10,7 +10,7 @@
       },
       "platforms": [
        	{
-          "name": "CH32 MCU EVT Boards",
+          "name": "WeAct CH32",
           "architecture": "ch32v",
           "version": "1.0.0",
           "category": "Contributed",
