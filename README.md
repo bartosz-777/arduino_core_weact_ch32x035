@@ -10,3 +10,6 @@
 
 
 
+## Supported libraries
+List of libraries that are tested working on this hardware
+* Modbus RTU(curently this library only suports 0x03- read holding registers, but i might fork it and add support for other features)  https://github.com/stephane/modbusino/tree/master
