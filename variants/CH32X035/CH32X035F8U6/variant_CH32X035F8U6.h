@@ -77,7 +77,7 @@
 
 // On-board user button
 #ifndef USER_BTN
-  #define USER_BTN              PNUM_NOT_DEFINED
+  #define USER_BTN              18
 #endif
 
 // SPI definitions
