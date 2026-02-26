@@ -5,7 +5,7 @@
 ## Whats working
 
 * anything that was primarly supported by original project(although some things in this projects are messy, and the ch32x035 is weird and seems to be less supported)
-* Added "board" for the WeAct board, LED_BUILITIN is implemented, serial is on PA2,PA3 might add onboard button support
+* Added "board" for the WeAct board, LED_BUILITIN is implemented, USER_BTN corresponds to onboard button serial is on PA2,PA3
 * fixed Serial.available()
 
 
