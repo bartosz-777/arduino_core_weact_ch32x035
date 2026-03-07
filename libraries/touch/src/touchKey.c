@@ -10,7 +10,7 @@ void TouchKey_init(void)
 	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA, ENABLE );
     RCC_APB2PeriphClockCmd(RCC_APB2Periph_ADC1, ENABLE );
 
-	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_2;
+	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_5;
 	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AIN;
 	GPIO_Init(GPIOA, &GPIO_InitStructure);
 
@@ -28,8 +28,7 @@ void TouchKey_init(void)
 	TKey1->CTLR1 |= (1<<24);     // Enable TouchKey
 }
 
-
-u16 Touch_Key_Adc(u8 ch)
+uint16_t Touch_Key_Adc(uint8_t ch)
 {
   ADC_RegularChannelConfig(ADC1, ch, 1, ADC_SampleTime_11Cycles );
   TKey1->IDATAR1 =0x80;  //Charging Time
